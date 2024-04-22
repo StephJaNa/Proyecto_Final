@@ -9,7 +9,7 @@ app.use((req, res, next) => {
 });
 
 // GET Ruta raíz ('/') para devolver un objeto JSON - formato postman
-app.get('/', (req, res) => {
+app.get('/prueba1', (req, res) => {
     const usuario = {
         metodo: "get",
         username: "A",
