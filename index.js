@@ -19,7 +19,7 @@ app.use(express.static(path.join(__dirname,'public')));
 
 //GET Principal
 app.get('/', (req, res) => {
-    res.render('Raiz principal');
+    res.send('Raiz principal');
     
 });
 
